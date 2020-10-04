@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="Navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_munjiat"
+            android:title="Munjiat"
+            android:icon="@drawable/munjiat"/>
+        <item
+            android:id="@+id/nav_amalan"
+            android:title="Amalan - Amalan" />
+        <item
+            android:id="@+id/nav_doa"
+            android:icon="@drawable/doa"
+            android:title="Do`a - Do`a" />
+        <item
+            android:id="@+id/nav_sholat"
+            android:title="Sholat - Sholat"
+            android:icon="@drawable/sholat"/>
+        <item
+            android:id="@+id/nav_maulid"
+            android:title="Maulid Diba`i" />
+    </group>
+
+
+</menu>
